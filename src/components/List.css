@@ -1,0 +1,89 @@
+.list-modal{
+  width: 600px;
+  min-height: 172px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.08);
+  border-radius: 12px;
+  margin-top: 200px;
+}
+
+.list-overlay{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list-container{
+  padding: 24px;
+}
+
+.list-row{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list-close{
+  cursor: pointer;
+  transition: all .2s ease;
+}
+
+.list-close:hover{
+  opacity: 0.3;
+}
+
+.list-close:active{
+  opacity: 1;
+}
+
+.list-title{
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #212121;
+}
+
+
+.table td,
+.table th {
+    width: calc(483px / 3);
+    text-align: left;
+  }
+
+.list-text{
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #212121;
+}
+
+.list-btn-row{
+  display: flex;
+  justify-content: end;
+}
+
+.list-btn{
+  background: #18397A;
+  border-radius: 4px;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 48px;
+  text-transform: uppercase;
+  padding: 0px 20px;
+  color: #FFFFFF;
+  cursor: pointer;
+  transition: all .3s ease;
+  outline: none;
+  border: none;
+}
+
+.list-btn:hover{
+  opacity: 0.4;
+}
+
+.list-btn:active{
+  opacity: 1;
+}
