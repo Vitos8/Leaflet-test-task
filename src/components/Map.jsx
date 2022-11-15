@@ -38,6 +38,7 @@ const Map = ({onClose, ip,onError}) => {
           }).then((res) => {
                onClose(false);
           }).catch(() => {
+               onClose(false);
                onError(true)
           });
      }
