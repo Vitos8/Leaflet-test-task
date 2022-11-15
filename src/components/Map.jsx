@@ -31,7 +31,7 @@ const Map = ({onClose, ip,onError}) => {
      }
 
      let onSaveLocation = () => {
-          axios.post('https://dev-sso.transparenterra.com/api/save-location', {
+          ip && axios.post('https://dev-sso.transparenterra.com/api/save-location', {
                ip,
                coord_x: marker[0], 
                coord_y: marker[1]

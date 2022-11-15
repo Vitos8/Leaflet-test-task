@@ -6,7 +6,7 @@ const List = ({onClose, ip}) => {
      const [data, setData] = useState();
 
      useEffect(() => {
-          axios.get('https://dev-sso.transparenterra.com/api/location-list').then((res) => {
+          ip && axios.get('https://dev-sso.transparenterra.com/api/location-list').then((res) => {
                let filtered = res.data.data.filter((item) => item.ip === ip);
                setData(filtered)
           });
